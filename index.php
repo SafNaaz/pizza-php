@@ -7,7 +7,9 @@ $string2 = 'tusee';
 
 // echo 'Hey, '.$string1;
 
-echo "Hey my name is $string2"
+// echo "Hey my name is $string2"
+
+echo "ninja screamed \"whaa\" ";
 
 ?>
 
