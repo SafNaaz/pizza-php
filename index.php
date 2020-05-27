@@ -1,8 +1,11 @@
 <?php
 
+define('NAME','Safnas');
+
 $name = 'tusee';
 $age = 30;
 // echo $name;
+// define('NAME','TUsee') error
 
 ?>
 
@@ -17,6 +20,7 @@ $age = 30;
     <h1><?php echo 'hello world'; ?></h1>
     <div><?php echo $name?></div>
     <div><?php echo $age?></div>
+    <div><?php echo NAME?></div>
 
 </body>
 </html>
