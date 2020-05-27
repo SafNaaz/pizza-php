@@ -17,7 +17,10 @@ $ages[] = 60;
 array_push($ages,70);
 // print_r($ages)
 
-echo count($ages)
+// echo count($ages)
+
+$arrayMerged = array_merge($peopleOne,$peopleTwo);
+print_r($arrayMerged)
 
 ?>
 
