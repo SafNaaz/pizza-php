@@ -1,13 +1,16 @@
 <?php
 
-$ninjas = ['bla','ble','blu'];
+$products = [
+    ['name'=>'bla','price'=>1],
+    ['name'=>'ble','price'=>2],
+    ['name'=>'blu','price'=>3],
+    ['name'=>'bley','price'=>4],
+    ['name'=>'blai','price'=>5],
+];
 
-// for($i= 0; $i<count($ninjas); $i++){
-//     echo $ninjas[$i].'<br/>';
-// }
-
-foreach ($ninjas as $ninja){
-    echo $ninja.'<br/>';
+foreach($products as $product){
+    echo $product['name'].' - '.$product['price'];
+    echo '<br/>';
 }
 
 ?>
