@@ -3,7 +3,11 @@
 $name = 'safnas';
 //echo $name[1];
 
-echo strlen($name);
+//echo strlen($name);
+
+echo strtoupper($name);
+echo strtolower($name);
+echo str_replace('s','k',$name)
 
 ?>
 
