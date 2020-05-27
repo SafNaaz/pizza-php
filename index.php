@@ -11,6 +11,7 @@ $string2 = 'tusee';
 
 echo "ninja screamed \"whaa\" ";
 
+echo 'blaa "blee"';
 ?>
 
 <!DOCTYPE html>
