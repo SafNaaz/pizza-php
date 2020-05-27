@@ -1,7 +1,8 @@
 <?php
 
 $name = 'tusee';
-echo $name;
+$age = 30;
+// echo $name;
 
 ?>
 
@@ -14,5 +15,8 @@ echo $name;
 </head>
 <body>
     <h1><?php echo 'hello world'; ?></h1>
+    <div><?php echo $name?></div>
+    <div><?php echo $age?></div>
+
 </body>
 </html>
