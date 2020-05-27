@@ -1,26 +1,10 @@
 <?php
 
-$peopleOne = ['safnas','sut','vava'];
-// echo $peopleOne[1];
+//associative arrays
 
-$peopleTwo = array('safnas','sut','vava');
-// echo $peopleTwo[1];
+$ninjaOne = ['blaa'=>'black','mario'=>'orange'];
 
-$ages = [20,30,40,50];
-//echo $ages; //error
-// print_r($ages);
-
-$ages[] = 60;
-
-// print_r($ages);
-
-array_push($ages,70);
-// print_r($ages)
-
-// echo count($ages)
-
-$arrayMerged = array_merge($peopleOne,$peopleTwo);
-print_r($arrayMerged)
+echo $ninjaOne['mario']
 
 ?>
 
