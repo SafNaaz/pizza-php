@@ -1,15 +1,16 @@
 <?php
 
-//associative arrays
+//multi dimensional arrays
 
-$ninjaOne = ['blaa'=>'black','mario'=>'orange'];
+$blogs = [
+    ['mario party','mario','lorem',30],
+    ['mario kart cheats','toad','lorem',25]
+];
 
-// echo $ninjaOne['mario']
-print_r($ninjaOne);
+//print_r($blogs)
+//print_r($blogs[1])
+print_r($blogs[1][1]) //value
 
-$ninjaOne['naaz'] = 'dark';
-print_r($ninjaOne);
-//merge same as normal array
 
 ?>
 
