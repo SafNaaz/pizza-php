@@ -8,10 +8,10 @@ $products = [
     ['name'=>'blai','price'=>5],
 ];
 
-foreach($products as $product){
-    echo $product['name'].' - '.$product['price'];
-    echo '<br/>';
-}
+// foreach($products as $product){
+//     echo $product['name'].' - '.$product['price'];
+//     echo '<br/>';
+// }
 
 ?>
 
@@ -23,5 +23,15 @@ foreach($products as $product){
     <title>My First PHP file</title>
 </head>
 <body>
+
+<h1>Products</h1>
+<ul>
+<?php foreach ($products as $product){?>
+
+<h3><?php echo $product['name']?></h3>
+<p> $ <?php echo $product['price']?></p>
+
+<?php }?>
+</ul>
 </body>
 </html>
