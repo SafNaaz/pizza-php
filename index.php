@@ -1,23 +1,7 @@
 <?php
 
-$radius = 25;
-$pi = 3.14;
-
-//basic = +,-,/,**
-
-echo $pi * $radius**2;
-
-//BIDMAS applies
-
-//incre and decre
-
-$radius++;
-
-echo $radius;
-
-echo floor($pi);
-echo ceil($pi);
-echo pi();
+$peopleOne = ['safnas','sut','vava'];
+echo $peopleOne[1]
 
 ?>
 
