@@ -1,17 +1,8 @@
 <?php
 
-$products = [
-    ['name'=>'bla','price'=>1],
-    ['name'=>'ble','price'=>2],
-    ['name'=>'blu','price'=>3],
-    ['name'=>'bley','price'=>4],
-    ['name'=>'blai','price'=>5],
-];
+echo false;
 
-// foreach($products as $product){
-//     echo $product['name'].' - '.$product['price'];
-//     echo '<br/>';
-// }
+echo 5<10;
 
 ?>
 
@@ -24,14 +15,5 @@ $products = [
 </head>
 <body>
 
-<h1>Products</h1>
-<ul>
-<?php foreach ($products as $product){?>
-
-<h3><?php echo $product['name']?></h3>
-<p> $ <?php echo $product['price']?></p>
-
-<?php }?>
-</ul>
 </body>
 </html>
