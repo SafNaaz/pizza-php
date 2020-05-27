@@ -4,6 +4,14 @@ echo false;
 
 echo 5<10;
 
+//loose comparison
+echo 5 == '5';
+
+// strict compariosn
+
+echo 5 === '5'
+
+
 ?>
 
 <!DOCTYPE html>
