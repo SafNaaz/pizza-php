@@ -1,30 +1,10 @@
 <?php
 
-//multi dimensional arrays
+$ninjas = ['bla','ble','blu'];
 
-// $blogs = [
-//     ['mario party','mario','lorem',30],
-//     ['mario kart cheats','toad','lorem',25]
-// ];
-
-
-//print_r($blogs)
-//print_r($blogs[1])
-// print_r($blogs[1][1]) //value
-
-$blogs = [
-    ['title' => 'mario party','author'=>'mario','content'=>'lorem','likes'=> 30],
-    ['title' => 'mario kart cheats','author'=>'toad','content'=>'lorem','likes'=> 25]
-];
-
-//echo $blogs[1]['author']
-
-$popped = array_pop($blogs);
-print_r($popped)
-
-
-
-
+for($i= 0; $i<count($ninjas); $i++){
+    echo $ninjas[$i].'<br/>';
+}
 
 ?>
 
