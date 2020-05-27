@@ -1,11 +1,9 @@
 <?php
 
-define('NAME','Safnas');
+$string1 = 'hello';
+$string2 = 'tusee';
 
-$name = 'tusee';
-$age = 30;
-// echo $name;
-// define('NAME','TUsee') error
+echo $string1 . $string2
 
 ?>
 
@@ -17,10 +15,5 @@ $age = 30;
     <title>My First PHP file</title>
 </head>
 <body>
-    <h1><?php echo 'hello world'; ?></h1>
-    <div><?php echo $name?></div>
-    <div><?php echo $age?></div>
-    <div><?php echo NAME?></div>
-
 </body>
 </html>
