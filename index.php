@@ -1,13 +1,11 @@
 <?php
 
-$name = 'safnas';
-//echo $name[1];
+$radius = 25;
+$pi = 3.14;
 
-//echo strlen($name);
+//basic = +,-,/,**
 
-echo strtoupper($name);
-echo strtolower($name);
-echo str_replace('s','k',$name)
+echo $pi * $radius**2;
 
 ?>
 
