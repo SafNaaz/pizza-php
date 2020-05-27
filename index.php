@@ -3,7 +3,11 @@
 $string1 = 'hello';
 $string2 = 'tusee';
 
-echo $string1 . $string2
+// echo $string1 . $string2;
+
+// echo 'Hey, '.$string1;
+
+echo "Hey my name is $string2"
 
 ?>
 
