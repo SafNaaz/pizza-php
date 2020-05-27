@@ -7,6 +7,14 @@ $pi = 3.14;
 
 echo $pi * $radius**2;
 
+//BIDMAS applies
+
+//incre and decre
+
+$radius++;
+
+echo $radius
+
 ?>
 
 <!DOCTYPE html>
