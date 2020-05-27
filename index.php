@@ -4,7 +4,12 @@
 
 $ninjaOne = ['blaa'=>'black','mario'=>'orange'];
 
-echo $ninjaOne['mario']
+// echo $ninjaOne['mario']
+print_r($ninjaOne);
+
+$ninjaOne['naaz'] = 'dark';
+print_r($ninjaOne);
+//merge same as normal array
 
 ?>
 
