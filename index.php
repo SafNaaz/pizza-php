@@ -1,17 +1,7 @@
 <?php
 
-$string1 = 'hello';
-$string2 = 'tusee';
-
-// echo $string1 . $string2;
-
-// echo 'Hey, '.$string1;
-
-// echo "Hey my name is $string2"
-
-echo "ninja screamed \"whaa\" ";
-
-echo 'blaa "blee"';
+$name = 'safnas';
+echo $name[1]
 ?>
 
 <!DOCTYPE html>
