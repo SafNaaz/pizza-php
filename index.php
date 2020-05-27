@@ -16,7 +16,8 @@ $radius++;
 echo $radius;
 
 echo floor($pi);
-echo ceil($pi)
+echo ceil($pi);
+echo pi();
 
 ?>
 
