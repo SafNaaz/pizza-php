@@ -2,8 +2,12 @@
 
 $ninjas = ['bla','ble','blu'];
 
-for($i= 0; $i<count($ninjas); $i++){
-    echo $ninjas[$i].'<br/>';
+// for($i= 0; $i<count($ninjas); $i++){
+//     echo $ninjas[$i].'<br/>';
+// }
+
+foreach ($ninjas as $ninja){
+    echo $ninja.'<br/>';
 }
 
 ?>
