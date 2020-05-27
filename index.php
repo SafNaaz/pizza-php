@@ -13,7 +13,10 @@ echo $pi * $radius**2;
 
 $radius++;
 
-echo $radius
+echo $radius;
+
+echo floor($pi);
+echo ceil($pi)
 
 ?>
 
