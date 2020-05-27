@@ -1,7 +1,10 @@
 <?php
 
 $name = 'safnas';
-echo $name[1]
+//echo $name[1];
+
+echo strlen($name);
+
 ?>
 
 <!DOCTYPE html>
