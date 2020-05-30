@@ -1,15 +1,10 @@
 <?php
 
-$price = 20;
-
-if($price < 10){
-    echo 'condition in met';
-}elseif($price < 30){
-    echo 'elseif condition is met';
-}else{
-    echo 'condition is not met';
+function sayHello(){
+    echo "good day";
 }
 
+sayHello();
 
 ?>
 
