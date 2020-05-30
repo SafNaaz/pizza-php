@@ -1,10 +1,11 @@
 <?php
 
-function sayHello($name){
+function sayHello($name = 'noname'){
     echo "good day ".$name;
 }
 
-sayHello('safnas');
+// sayHello('safnas');
+sayHello();
 
 ?>
 
