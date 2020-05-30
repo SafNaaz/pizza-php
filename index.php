@@ -1,10 +1,10 @@
 <?php
 
-function sayHello(){
-    echo "good day";
+function sayHello($name){
+    echo "good day ".$name;
 }
 
-sayHello();
+sayHello('safnas');
 
 ?>
 
