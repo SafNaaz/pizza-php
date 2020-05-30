@@ -1,15 +1,14 @@
 <?php
 
-echo false;
+$price = 20;
 
-echo 5<10;
-
-//loose comparison
-echo 5 == '5';
-
-// strict compariosn
-
-echo 5 === '5'
+if($price < 10){
+    echo 'condition in met';
+}elseif($price < 30){
+    echo 'elseif condition is met';
+}else{
+    echo 'condition is not met';
+}
 
 
 ?>
