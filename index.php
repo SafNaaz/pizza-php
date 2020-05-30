@@ -5,7 +5,13 @@ function sayHello($name = 'noname'){
 }
 
 // sayHello('safnas');
-sayHello();
+// sayHello();
+
+function formatProduct($product){
+    return "{$product['name']} cost $ {$product['price']}";
+}
+
+echo formatProduct(['name' =>'bla', 'price'=>10]);
 
 ?>
 
