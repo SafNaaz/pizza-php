@@ -1,15 +1,9 @@
 <?php
 
-$name = 'safnas';
+include ('ninja.php');
+echo 'end of php'
 
-function sayHello(){
-    global $name;
-    $name = 'sut';
-    echo "hello $name";
-}
 
-sayHello();
-echo $name
 ?>
 
 <!DOCTYPE html>
