@@ -1,17 +1,13 @@
 <?php
 
-function sayHello($name = 'noname'){
-    echo "good day ".$name;
+$name = 'safnas';
+
+function sayHello(){
+    global $name;
+    echo "hello $name";
 }
 
-// sayHello('safnas');
-// sayHello();
-
-function formatProduct($product){
-    return "{$product['name']} cost $ {$product['price']}";
-}
-
-echo formatProduct(['name' =>'bla', 'price'=>10]);
+sayHello();
 
 ?>
 
