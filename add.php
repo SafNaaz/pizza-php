@@ -15,7 +15,10 @@
         if(empty($_POST['email'])){
             echo 'An email is required <br/>';
         } else{
-            echo htmlspecialchars($_POST['email']);
+            $email = $_POST['email'];
+            if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+                echo 'email must be a valid email address'; 
+            }
         }
 
         //check title
