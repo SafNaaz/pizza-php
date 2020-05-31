@@ -25,7 +25,10 @@
         if(empty($_POST['title'])){
             echo 'A title is required <br/>';
         } else{
-            echo htmlspecialchars($_POST['title']);
+            $title = $_POST['title'];
+            if(!preg_match('/^[a-zA-Z\s]+$/', $title)){
+                echo 'Title must be letters and spaces only';
+            }
         }
 
         //check ingredients
