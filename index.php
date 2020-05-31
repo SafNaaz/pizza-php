@@ -1,6 +1,7 @@
 <?php
 
 include ('ninja.php');
+require('ninja.php'); // if file not available fatal error
 echo 'end of php'
 
 
