@@ -35,7 +35,12 @@
             }
         }
 
-        
+        if(array_filter($errors)){ //if empty evaluates to false
+            //echo 'errors in the form';
+        }else{
+            //echo 'form is valid';
+            header('Location: index.php');  //redirect to another page - no space
+        }
 
     }
 
