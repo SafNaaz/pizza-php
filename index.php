@@ -16,6 +16,10 @@
 
     $pizzas = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
+    mysqli_free_results($result); //free memory
+
+    mysqli_close($conn);
+
     print_r($pizzas);
 
 ?>
